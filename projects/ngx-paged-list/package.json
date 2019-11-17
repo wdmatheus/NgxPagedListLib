@@ -1,0 +1,17 @@
+{
+  "name": "ngx-paged-list",
+  "description": "Paged List module for Angular",
+  "author": {
+    "email": "wendel.matheus@lexnnova.com",
+    "name": "Wendel Matheus",
+    "url": "https://github.com/wdmatheus/NgxPagedListLib"
+  },
+  "bugs": {
+    "url": "https://github.com/wdmatheus/NgxPagedListLib/issues"
+  },
+  "version": "0.0.4",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  }
+}
