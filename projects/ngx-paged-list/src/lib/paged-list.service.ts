@@ -50,11 +50,11 @@ export class PagedListService {
   private searchData(data?: any): any {
     this.filterData = data ? {...data} : this.filterData;
     data = data || {};
+    Object.assign(data, this.filterData);
     data.pageSize = this.pageSize;
     data.pageIndex = this.pageIndex;
     data.sortField = this.sortField;
     data.sortType = this.sortType;
-    Object.assign(data, this.filterData);
     return data;
   }
 

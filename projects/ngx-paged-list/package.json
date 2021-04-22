@@ -6,10 +6,11 @@
     "name": "Wendel Matheus",
     "url": "https://github.com/wdmatheus/NgxPagedListLib"
   },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wdmatheus/NgxPagedListLib/issues"
   },
-  "version": "1.0.0",
+  "version": "1.1.1",
   "peerDependencies": {
     "@angular/common": "~10.0.3",
     "@angular/core": "~10.0.3"
