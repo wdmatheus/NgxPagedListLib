@@ -141,7 +141,6 @@
       }
     }
   },
-  "defaultProject": "ngx-paged-list-lib",
   "cli": {
     "analytics": false
   }
