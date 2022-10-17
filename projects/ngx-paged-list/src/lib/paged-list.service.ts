@@ -68,7 +68,7 @@ export class PagedListService {
   private createHttpParams(params: {}): HttpParams {
     let httpParams: HttpParams = new HttpParams();
     Object.keys(params).forEach(param => {
-        if (params[param]) {
+        if (params[param] != null) {
             httpParams = httpParams.set(param, params[param]);
         }
     });
